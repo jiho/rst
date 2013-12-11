@@ -1,9 +1,9 @@
 Package: rst
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: A new procedure to optimize the selection of groups in a classification tree
+Version: 0.1
 Date: 2013-12-11
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Sakina-Dorothée Ayata, Vincent Calgano, Lionel Guidi, Jean-Olivier Irisson
+Maintainer: Jean-Olivier Irisson <irisson@normalesup.org>
+Description: Agglomerative cluster analyses encompass many techniques, which have been widely used in various fields of science. In biology, and specifically ecology, datasets are generally highly variable and may contain outliers, which increase the difficulty to identify the number of clusters. This package implements a new criterion to determine statistically the optimal level of partition in a classification tree. The criterion robustness is tested against perturbated data (outliers) using an observation or variable containing randomly generated values.
+License: GPL v3
